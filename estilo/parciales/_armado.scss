@@ -1,0 +1,28 @@
+.armado {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-image: url(/Media/armadoPc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items:flex-end;
+    justify-content: center;
+    .boton{
+        margin-bottom: 100px;
+        padding: 30px;
+        
+        button{
+            font-size: 50px;
+            background-color: transparent;
+            border: solid;
+            padding: 20px;
+            text-transform:initial;
+
+            &:hover{
+                color: $colormain;
+                transition: 0.5s;
+            }
+        }
+    }
+    
+}

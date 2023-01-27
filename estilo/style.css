@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-image: linear-gradient(to right top, #33173e, #3d1f51, #462865, #4d317a, #523c91, #593f9d, #6143a9, #6946b5, #7a41b7, #8b39b7, #9c2fb6, #ac20b3);
+}
+.navbar .navbar-brand {
+  /*text-transform: uppercase;
+  float: left;
+  font-weight: bold;
+  float: initial;
+  font-size: 30px;
+
+  span{
+      color: black;
+      text-transform: uppercase;
+
+  }*/
+}
+.navbar .navbar-brand img {
+  height: 80px;
+  margin-right: 30px;
+}
+
+.categ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  margin-top: 30px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.contenido {
+  height: auto;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenido .producto {
+  width: 240px;
+  padding: 20px;
+  margin-inline: 5px;
+}
+.contenido .producto .producto__imagen {
+  width: 100%;
+  height: auto;
+}
+.contenido .producto.producto__categoria {
+  margin: 10px;
+  padding-left: 80px;
+  padding-block: 10px;
+  font-size: 18px;
+}
+
+.contenedor {
+  display: flex;
+  height: 1250px;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+.contenedor .cartitas1 {
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/Media/pcbaner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor .cartitas1:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.contenedor .cartitas1 h3 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.contenedor .cartitas1p {
+  text-align: center;
+  margin: 20px;
+  color: rgb(196, 196, 196);
+}
+.contenedor .cartitas1 button {
+  margin: 10px;
+  padding: 15px;
+  color: wheat;
+  background-color: #9c2fb6;
+}
+.contenedor .cartitas2 {
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/Media/pcGAmer.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor .cartitas2:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.contenedor .cartitas2 h3 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.contenedor .cartitas2p {
+  text-align: center;
+  margin: 20px;
+  color: rgb(196, 196, 196);
+}
+.contenedor .cartitas2 button {
+  margin: 10px;
+  padding: 10px;
+  color: wheat;
+  background-color: #9c2fb6;
+}
+
+.foot {
+  display: flex;
+  height: 360px;
+  width: auto;
+  background-color: rgba(43, 13, 63, 0.938);
+  flex-direction: column;
+}
+.foot div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.foot div h4 {
+  margin: 20px;
+  margin-top: 160px;
+  padding: 10px;
+  color: antiquewhite;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.foot .redes a {
+  text-decoration: none;
+  color: #b7b7b7;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(28, 28, 28);
+  border-radius: 10px;
+  position: relative;
+  transition: 0.4s;
+}
+.foot .redes a:hover {
+  transform: rotate(45deg);
+  background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.foot .redes a::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opasity 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
+.armado {
+  display: flex;
+  height: 800px;
+  width: 100%;
+  background-image: url(/Media/armadoPc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  justify-content: center;
+}
+.armado .boton {
+  margin-bottom: 100px;
+  padding: 30px;
+}
+.armado .boton button {
+  font-size: 50px;
+  background-color: transparent;
+  border: solid;
+  padding: 20px;
+  text-transform: initial;
+}
+.armado .boton button:hover {
+  color: #9c2fb6;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */
