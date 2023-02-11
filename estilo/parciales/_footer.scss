@@ -2,7 +2,7 @@
     display: flex;
     height: 360px;
     width: auto;
-    background-color: rgba(43, 13, 63, 0.938);
+    background: linear-gradient(to bottom, #de48b5 0%, #5f17a3 100%);
     flex-direction: column;
 
     div{
@@ -39,6 +39,16 @@
             &:hover{
                 transform: rotate(45deg);
                 background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+                &:nth-child(2){
+                    background: #122066;
+                }
+                &:nth-child(3){
+                    background: #0ca833;
+                }
+                &:nth-child(4){
+                    background: #1d91fd;
+                }
                     
                 
             }

@@ -11,7 +11,9 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-image: linear-gradient(to right top, #33173e, #3d1f51, #462865, #4d317a, #523c91, #593f9d, #6143a9, #6946b5, #7a41b7, #8b39b7, #9c2fb6, #ac20b3);
+    background-image: $navGradient;
+
+    
 
     aside {
         padding: 2rem;
@@ -80,7 +82,7 @@
                 }
 
                 .details {
-                    background-color: #523c91;
+                    background: linear-gradient(to top, #721758 0%, #270546 100%);;
                     color: white;
                     padding: 6px;
                     border-radius: 10px;
