@@ -491,4 +491,20 @@
     justify-content: center;
     align-items: center;
   }
+}
+@media screen and (max-width: 440px) {
+  .wrapper main {
+    margin-left: 30px;
+  }
+  .wrapper main .contenedor-producto {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .wrapper main {
+    margin-inline: 40px;
+  }
+  .wrapper main .contenedor-producto {
+    width: 200px;
+  }
 }/*# sourceMappingURL=style.css.map */

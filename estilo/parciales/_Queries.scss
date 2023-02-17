@@ -87,3 +87,26 @@
         }
     }
 }
+@media screen and (max-width: 440px){
+    .wrapper {
+        main {
+            margin-left: 30px;
+
+            .contenedor-producto {
+                width: 260px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .wrapper {
+        main {
+            margin-inline: 40px;
+
+            .contenedor-producto {
+                width: 200px;
+            }
+        }
+    }
+}
