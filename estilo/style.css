@@ -67,7 +67,7 @@
   width: auto;
   display: flex;
   flex-direction: column;
-  background-image: url(/Media/pcbaner.jpg);
+  background-image: url(../img/pcbaner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -98,7 +98,7 @@
   width: auto;
   display: flex;
   flex-direction: column;
-  background-image: url(/Media/pcGAmer.webp);
+  background-image: url(../img/pcGAmer.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -187,7 +187,7 @@
   display: flex;
   height: 800px;
   width: 100%;
-  background-image: url(/Media/armadoPc.jpg);
+  background-image: url(../img/armadoPc.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   align-items: flex-end;
